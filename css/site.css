@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.headert{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.headert .hl{
+    color: white;
+    margin-top: 30px;
+    border-bottom: 1px solid white;
+    font-size: small;
+}
+.headert .logo{
+    border-bottom: 1px solid white;
+}
+.boders{
+    width: 200px;
+    padding: 20px;
+    border: 5px solid #CED086;
+    
+}
+.boders p{
+    color: rgba(255, 255, 255, 0.952);
+    text-align: center;
+}
+.boders .p2{
+    font-size:x-small;
+}
+.boders .button{
+    background-color:#C5D301;
+    padding: 10px;
+    color: white;
+    margin-left: 30%;
+    border-color: rgba(255, 255, 255, 0);
+    margin-top: 5px;
+}
+.boders .input .bd{
+    background-color: transparent;
+    color: white;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.329) ;
+    padding: 4%;
+    border-top-color: rgba(124, 124, 124, 0.089);
+    border-left-color: rgba(124, 124, 124, 0.089);
+    border-right-color: rgba(124, 124, 124, 0.089);
+
+}
+.bd::-webkit-input-placeholder{
+    color: rgb(255, 255, 255);
+}
+.body{
+    width: 100%;
+    overflow: auto;
+    display: flex;
+    flex-direction: row;
+
+}
+.body .cot{
+    
+    display: flex;
+    flex-direction: column;
+}
+.body .cot2{
+    width: 50%;
+    float: right;
+    padding: 0  20% 0 20px;
+   
+}
+.body .cot1,.o2{
+    width:50%;
+    float: left;
+    padding: 0  20px 0 20%;
+}
+.body .text1{
+    text-align: justify;
+    line-height: 1.3;
+   
+}
+.body h4{
+    margin-bottom: 10px;
+    font-size: 15px;
+    color: #2D8C15;
+}
+.body .cot2.text1{
+    text-align: justify;  
+
+}
+.body .cot1 h4{
+    text-align: center; 
+    margin-top: 30px;
+}
+.body .cot2 h4{
+    text-align: center; 
+}
+.body img{
+    border: 2px dashed #2D8C15;
+    border-radius: 10px;
+}
+.body{
+    font-family: Arial, sans-serif;
+}
+.chan{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 20% 0 20%;
+}
+.chan1{
+    color: white;
+    margin-right: 20px;
+    text-align: justify;
+}
+
+.chan1 h3{
+    border-bottom:1px solid white ;
+}
+
+.ft{
+    padding: 0 210px 0 0;
+    border-color: rgba(255, 255, 255, 0.055);
+   
+}
+.TQ1{
+    margin: 0 20% 0 20%;
+}
+.body{
+    column-gap: 20px;
+}
+.body .cot3{
+    width:50%;
+    float: left;
+}
+.body .cot4{
+    width:50%;
+    float: right;
+}
+
+.cotp{
+    display: flex;
+    flex-direction: column;
+}
+.ft1{
+    padding: 0 150px 0 150px;
+    color: white;
+    background-color: #2A6E01;
+    border-color: rgba(255, 255, 255, 0.055);
+    
+}
+.ftt{
+    margin-bottom: 10px;
+}
